@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="quiz-container">
+        <div class="quiz-inner">
+            <div class="quiz-counter">
+                <span id="quiz-counter-fact">0</span> 
+                <span> of </span>
+                <span id="quiz-counter-all">0</span> 
+            </div>
+            <h2 class="question" id="question">Question text</h2>
+            <ul class="quiz-list">
+                <li>
+                    <input type="radio" id="a" name="answer">
+                    <label for="a" id="a_text">Question</label>
+                </li>
+                <li>
+                    <input type="radio" id="b" name="answer">
+                    <label for="b" id="b_text">Question</label>
+                </li>
+                <li>
+                    <input type="radio" id="c" name="answer">
+                    <label for="c" id="c_text">Question</label>
+                </li>
+                <li>
+                    <input type="radio" id="d" name="answer">
+                    <label for="d" id="d_text">Question</label>
+                </li>
+            </ul>
+            <div class="quiz-error">Select one please</div>
+        </div>
+        <button id="submit">Submit</button>
+    </div>
+</body>
+</html>
